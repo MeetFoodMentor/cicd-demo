@@ -1,0 +1,22 @@
+{
+  "jwtSecret": "meetFoodSecretToken",
+  "jwtExpireTime": 360000,
+
+  "mongodbConnectURI": "mongodb+srv://max:meetfoodclass@cluster0.zepyq.mongodb.net/?retryWrites=true&w=majority",
+
+  "CognitoRegion": "us-east-1",
+  "CognitoToCUserPoolId": "us-east-1_NVPBjMKzp",
+  "CognitoTokenUse": "access",
+  "CognitoTokenExpiration": 8640000,
+  "IAMAccessKeyId": "AKIAWNAHV7RJKYNTDQ63",
+  "IAMSecretAccessKey": "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",
+
+  "S3AccessKeyID": "AKIAWNAHV7RJDFP4P6RL",
+  "S3SecretAccessKey": "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",
+  "S3VideoBucketName": "meetfood-class/videos",
+  "S3ProfilePhotoBucketName": "meetfood-class/profile-photos",
+  "S3CoverImageBucketName": "meetfood-class/cover-images",
+  "S3VideoUrlPrefix": "https://meetfood-class.s3.amazonaws.com/videos",
+  "S3ProfilePhotoUrlPrefix": "https://meetfood-class.s3.amazonaws.com/profile-photos",
+  "S3CoverImageUrlPrefix": "https://meetfood-class.s3.amazonaws.com/cover-images"
+}
